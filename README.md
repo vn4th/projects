@@ -1,2 +1,2 @@
 # projects
-:3 bored mfs be doing shi like this
+bored mfs be doing shi like this :3
