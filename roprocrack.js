@@ -1,4 +1,5 @@
 // EVERYTHING FOR ENTERTAINMENT AND EDUCATIONAL PURPOSES ONLY. I AM NOT REPSONSIBLE FOR YOUR ACTIONS WITH THIS CODE.
+// Made by VN :3
 
 async function fetchSubscription() {
 	return new Promise(async (resolve) => {
