@@ -1,4 +1,5 @@
 # EVERYTHING FOR ENTERTAINMENT AND EDUCATIONAL PURPOSES ONLY. I AM NOT REPSONSIBLE FOR YOUR ACTIONS WITH THIS CODE.
+# Made by VN :3
 
 import discord
 from discord.ext import commands
@@ -41,5 +42,3 @@ async def nuke(ctx):
     await asyncio.gather(*[create_channel(i) for i in range(10)])
 
 bot.run(os.environ['TOKEN'])
-
-# Made by VN :D
